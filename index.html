@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Clase 1-2</title>
+  </head>
+  <body>
+    <header>
+      <h1>PRACTICA CLASE 1 Y 2</h1>
+    </header>
+    <br />
+
+    <div>
+      <img
+        src="myp.jpg"
+        alt="Mi Papá y yo en el Estadio San Siro, año 2015"
+        width="400"
+      />
+    </div>
+    <hr />
+
+    <h2><em>Datos Personales</em></h2>
+    <nav>
+      <ul>
+        <li><a href="#">Nombre: Matias Ariel</a></li>
+        <li><a href="#">Apellido: Casal</a></li>
+        <li><a href="#">Edad:28</a></li>
+        <li><a href="#">Email: maticasal20@gmail.com</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <div>
+      <h4>Descripción</h4>
+      <p>
+        Mi nombre es Matias Ariel Casal, tengo 28 años, soy musico y
+        fotografo.<br />
+        Este año decidi ponerme a estudiar Desarrollo Web, y deseo poder
+        dedicarme en un futuro plenamente a esto.
+      </p>
+    </div>
+    <hr />
+
+    <h4>Practica de Formularios</h4>
+    <form action="Datos-Personales">
+      <label for="nombre"
+        >Nombre:
+        <input
+          id="nombre"
+          type="text"
+          placeholder="Ingrese su nombre:"
+          required
+        /> </label
+      ><br />
+      <br />
+
+      <label for="apellido">Apellido:</label>
+      <input
+        id="apellido"
+        type="text"
+        placeholder="Ingrese su apellido:"
+        required
+      />
+      <br />
+      <br />
+      <label for="correo">Email:</label>
+      <input
+        type="email"
+        id="correo"
+        placeholder="Ingrese su correo:"
+        required
+      />
+      <label for="contraseña">Contraseña:</label>
+      <input
+        type="password"
+        id="contraseña"
+        placeholder="Ingrese su contraseña:"
+        required
+      />
+      <br />
+      <br />
+      <input type="submit" value="Enviar" />
+      <input type="reset" />
+    </form>
+
+    <hr />
+
+    <section>
+      <h2>Elegir equipo de Fútbol:</h2>
+      <form action="#">
+        <label for="equipo1">Boca</label>
+        <input type="checkbox" id="equipo1" />
+
+        <label for="equipo2">River</label>
+        <input type="checkbox" id="equipo2" />
+
+        <label for="equipo3">Racing</label>
+        <input type="checkbox" id="equipo3" />
+
+        <h3>Elegir una opción:</h3>
+        <label for="juan">
+          <input type="radio" id="juan" name="jugador" />Riquelme</label
+        >
+        <label for="martin">
+          <input type="radio" id="martin" name="jugador" />Palermo</label
+        >
+        <label for="carlitos">
+          <input type="radio" id="carlitos" name="jugador" />Tevez</label
+        >
+      </form>
+    </section>
+  </body>
+</html>
